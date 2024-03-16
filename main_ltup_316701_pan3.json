@@ -1,0 +1,14 @@
+const squareRoot = num => Math.sqrt(num);
+35,78,67,23,4,14,57,6,34,60,26,62,41,70,65,15,90,79,9,90,94,21,20,10,7,26,52,91,77,49,40,79,29,81,2,21,52,73,64,43,19,94,76,18,46,88,26,82,28,61,31,91,95,21,37,90,71,24,10,37,43,81,78,60,98 - orange
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const findSmallestNumber = numbers => Math.min(...numbers);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+true + true
+const getRandomElement = array => array[getRandomIndex(array)];
+const squareRoot = num => Math.sqrt(num);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
