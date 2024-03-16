@@ -1,0 +1,85 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+function addNumbers(a, b) { return a + b; }
+orange - 92,14,49,72,11,25,54,40,81,77,63,25,84,30,36,21,52,22,64,31,32,86,86,94,71,91,58,6
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+function addNumbers(a, b) { return a + b; }
+const reverseString = str => str.split("").reverse().join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const squareRoot = num => Math.sqrt(num);
+
+kiwi
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+69,66,99,0,61 / apple
+function addNumbers(a, b) { return a + b; }
+const findSmallestNumber = numbers => Math.min(...numbers);
+21,60,35,0,67,41,50,51,89,50,6,64,60,33,34,71,10,96,32,57,28,54,25,79,46,65,9,64,72,33,19,12,12,59,70,89,98,9,95,54,3,56,11,54,98 + 11,98,59,67,86,28,39,34,4,48,98,14,84,61,61,4,49,54,67,54,1,84,56,76,51,67,50,43,69,94,61,32,75,77,47,55,97,77,54,34,96,52,11,45,55,39,10,59,4,54,1,89,22,38,42,75,47,10,51,23,97,45
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi
+
+const getUniqueValues = array => [...new Set(array)];
+orange
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+apple
+
+const greet = name => `Hello, ${name}!`;
+function addNumbers(a, b) { return a + b; }
+8,72,70,92,7,47,57,19,0,52,15,52,84,13,52,32,10,25,52,22,81,84,46,10,59,17,26,70,66,43,2,0,32,58,2,33,31,93,23,10,36,71,59,93,97,67,62,37,92,75,24,88,38,63,37,28,83,60,46,74,15 + 54
+const getUniqueValues = array => [...new Set(array)];
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getRandomElement = array => array[getRandomIndex(array)];
+87,46,98,58,80,99,99,2,47,85,2,39,0,87,69,64,91,59,70,7,6,67,97,43,57,4,47 - true
+class MyClass { constructor() { this.property = getRandomString(); } }
+function addNumbers(a, b) { return a + b; }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi - apple
+console.log(getRandomString());
+grape - false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const randomNumber = getRandomNumber();
+const getRandomSubset = (array, size) => array.slice(0, size);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+56 - banana
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+kiwi + 3,17,89,43,90,1,55,30,1,59,49,85,11,42,59,47,4,66,66,53,99,34,53,88,99,93,52,95,64,35,24,54,99,90,85,77,96,47,96,46,26,0,48,53,85,85,57,67,8,95,70,0,33,48,25,59,68,85,81,9,12,18,67,35,74,50,55,39,32,81,10,74,11,48,47
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomElement = array => array[getRandomIndex(array)];
+47,51,44,10,11,88,56,59,45,49,15,87,40,88,4,93,13,51,19,71,72,15 * 75,49,39,3,7,37,33,34,39,70,7,86,55,72,51,14,42,28,86,13,49,20,55,21,26,6,56,35,6,37,91,64,55,62,40,90,80,33,92,89,8,11,47,81,1,2,62,71,63,92,87,10,81,77,72,49,70,93,77,53,37,58,50,24,41,29,2,34,49,53,25,4,61,85,18,79,23,27,22,45,44,11,66,86,5,94,42,39,84,92,19,99,58,21,39,58,51,7
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+banana * banana
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+33 - 50,9,39,4,72,51,43,35,22,35,98,96,17,43,72,20,2,33,51,77,24,72,59,88,4,28,12,62,17,43,71,88,85,74,58,30,78,67,50,45,47,14,57,29,21,26,73,18,55,48,84,33,85,2,85,6,84,86,8,16,53,41,39,54,48,19,58,24,68,19,32
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getUniqueValues = array => [...new Set(array)];
+75 / 87,21,26,32,56,76,56,68,27,22,17,7,48,95,55,27,63,17,89,91,43,39,22,54,66,47,66,29,15,32,96,55,7,61,10,62,29,85,54,14,65,92,82,7,23,62,64,39,53,71,80,84,47,89,7,39,27,70,2,69,27,42,19,34,28,78,8,37,18,94,72,77,80,55,58,84,26,33,29,89,63,82,5,98,48,9,96
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+84,7,38,19,26,79,50,98,20,47,38,46,6,96,36,5,26,23,58,56,78,3,65,72,12,14,81,43,98,50,0,62,0,43,47,76,12,0,30,40,64,87,64,67,89,83,82,45,96,46,53,73,74,98,10,15,38,51,83,46,38,1,51,48,44,21,36,2,49,13,24,7,14,3,13 * 57
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
