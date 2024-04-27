@@ -1,0 +1,112 @@
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+apple + 38
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sum = (a, b) => a + b;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+37 / 16
+// This is a comment
+35 + grape
+const removeDuplicates = array => Array.from(new Set(array));
+const multiply = (a, b) => a * b;
+grape
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+orange - kiwi
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+44 / 99
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple
+
+const sum = (a, b) => a + b;
+orange + 78
+const isEven = num => num % 2 === 0;
+
+banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+true + false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomSubset = (array, size) => array.slice(0, size);
+false / 29
+let array = getRandomArray(); array.forEach(item => console.log(item));
+false - apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+89,90,40,48,33,15,75,68,89,25,23,60,10,46,68,2,17,2,69,36,39,54,88,6,54,73,13,67,16,39,32,72,74,93,46,10,39,92,10,29,1,38,59,42,58,70,12,27,61,7,33,55,49,29,87,92,72,19,92,82,79,48,31,45,88,92,59,42,8,23,10,28,1,61,38,20,21,4,62,55,79,50,16,65,11,30,21,78,10,93,91 + false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape
+
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+kiwi
+
+
+const multiply = (a, b) => a * b;
+82,42,22,45,95,95,16,84,1 / 45
+const sum = (a, b) => a + b;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+banana / 73
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+// This is a comment
+56 + 37,15,84,78,21,0,48,38,69,96,32,69,20,83,45,83,89,78,57,2,56,95,14,1,63,93,10,19,85,20,32,85,9,99,81,90,8,96,69,50
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const greet = name => `Hello, ${name}!`;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+// This is a comment
+
+const squareRoot = num => Math.sqrt(num);
+banana * 38
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+15 / 73,87,14,57,72,50,35,43,15,75,22,72,25,41,18,76,78,54,2,1,48,54,72,62,87,41,12,97,39,93,45,85,60,75,81,85,81,18,79,72,1,23,37,34,93,73,5,63,42,29,79,84,38,56,93,78,22,55,58,40,96,32,64,86,73,11,94,22,80,52,96
+const reverseString = str => str.split("").reverse().join("");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+// This is a comment
+const squareRoot = num => Math.sqrt(num);
+51 * 68
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true / grape
+const reverseWords = str => str.split(" ").reverse().join(" ");
+39,13,9,22,86,71,59,40,42,60,1,29,67,28,94,56,63,20,96,81,31,58,65,9,74,29,58,62,0,38,7,5,35,18,37,98,82,51,50 / true
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+true - 69,18,5,89,78,28,50,24,26,59,50,57,32
+class MyClass { constructor() { this.property = getRandomString(); } }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+banana
+
+const greet = name => `Hello, ${name}!`;
+
+const variableName = getRandomNumber();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
